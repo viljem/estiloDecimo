@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(29, 29, 54);
+}
+
+.encabezado{
+    display: flex;
+    width: 100vw;
+    height: 115px;
+
+}
+
+.encabezado .encabezado-input{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    padding: 50px 0 0 50px;
+}
+
+.encabezado .encabezado-input div{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    border-bottom: 2px solid #1d1d36;
+}
+
+.encabezado .encabezado-input .encabezado-lupita{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-image: url("./img/lupita.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.encabezado .encabezado-input input{
+    display: inline-block;
+    width: 170px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.encabezado .encabezado-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.encabezado .encabezado-logo span{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-image: url("./img/Escudo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.encabezado .encabezado-logo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.encabezado .encabezado-logo div h2{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.encabezado .encabezado-logo div h3{
+    width: 100%;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+
+.encabezado .encabezado-iconos{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 45px 0 0;
+}
+
+.encabezado .encabezado-iconos a{
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.encabezado .encabezado-iconos .icono{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.encabezado .encabezado-iconos .iconos-perfil{
+    background-image: url("./img/perfil.png");
+    width: 25px;
+    height: 25px;
+}
+
+.encabezado .encabezado-iconos .iconos-boton{
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.encabezado .encabezado-iconos .iconos-face{
+    background-image: url("./img/face.png");
+}
+
+.encabezado .encabezado-iconos .iconos-insta{
+    background-image: url("./img/insta.png");
+}
+
+.encabezado .encabezado-iconos .iconos-twitter{
+    background-image: url("./img/x.png")
+}
+
+.encabezado .encabezado-iconos .iconos-youtube{
+    background-image: url("./img/youtube.png");
+}
